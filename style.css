@@ -1,3 +1,9 @@
 body {
     background-color: #FFFF33;
+    text-align: center;
+}
+
+.logo {
+    width: 70vw;
+    padding-top: 60px;
 }
