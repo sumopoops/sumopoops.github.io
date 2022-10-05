@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ANSI Color Picker</title>
+        <style>
+
+            body {
+                font-family: Tahoma, Verdana, Geneva, sans-serif;
+            }
+
+            #color1 {background-color: aquamarine;}
+            #color2 {background-color: aquamarine;}
+            #color3 {background-color: aquamarine;}
+            #color4 {background-color: aquamarine;}
+            #color5 {background-color: aquamarine;}
+            #color6 {background-color: aquamarine;}
+            #color7 {background-color: aquamarine;}
+            #color8 {background-color: aquamarine;}
+            #color9 {background-color: aquamarine;}
+            #color10 {background-color: aquamarine;}
+            #color11 {background-color: aquamarine;}
+            #color12 {background-color: aquamarine;}
+
+            td {
+                width: 60px;
+                height: 60px;
+                margin: 0px;
+                cursor: pointer;
+            }
+
+            td:hover {
+                background-color: red !important;
+            }
+
+            #main {
+                width: 800px;
+                margin: auto;
+                padding: 20px;
+                border: 1px solid purple;
+                background-color: rgb(182, 100, 182);
+            }
+
+            #copyToClipboard {
+                width: 40px;
+                height: 40px;
+                color: red;
+                text-decoration: none;
+                border: none;
+                border-radius: 10px;
+                cursor: pointer;
+                display: inline;
+            }
+
+            h2 {
+                display: inline;
+            }
+
+        </style>
+
+        <script defer>
+
+        </script>
+
+        <body>
+
+            <div id="main">
+                <h1>ANSI Color Picker</h1>
+
+                <div id="codeTypeSelector">
+                    <select>
+                        <option value="cmd">Command Prompt</option>"
+                        <option value="linux">Linux Terminal</option>"
+                        <option value="osx">OSX Terminal</option>"
+                    </select>
+                </div>
+
+                <table id="colorSelector">
+                    <tr><td id="color1"></td><td id="color2"></td><td id="color3"></td><td id="color4"></td></tr>
+                    <tr><td id="color5"></td><td id="color6"></td><td id="color7"></td><td id="color8"></td></tr>
+                    <tr><td id="color9"></td><td id="color10"></td><td id="color11"></td><td id="color12"></td></tr>
+                </table>
+
+                <h2>Code Output</h2>
+
+                <div id="codeOutput">
+                    \e[0m
+                </div>
+                <input type="button" id="copyToClipboard">
+            </div>
+
+
+        </body>
+    </head>
+</html>
