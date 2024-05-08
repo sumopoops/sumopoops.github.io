@@ -1,5 +1,20 @@
+/*
+DARK PURPLE     #52438f
+PURPLE          #7582bc
+YELLOW          #ffff33
+WHITE           #feffff
+*/
+
+@font-face {
+    font-family: Iosevka;
+    src: url("fonts/iosevka-aile-medium.woff2");
+}
+
 body {
+    font-family: Iosevka, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #FFFF33;
+    background-image: url("img/sumopoops_bg.gif");
+    user-select: none;
 }
 
 body {
@@ -9,4 +24,76 @@ body {
 .logo {
     width: 70vw;
     padding-top: 60px;
+}
+
+#main {
+    border-radius: 30px;
+    width: 70%;
+    display: inline-block;
+    margin-top: 50px;
+    text-align: left;
+}
+
+h1 {
+    font-size: 80px;
+    width: fit-content;
+}
+
+.text {
+    padding: 10px;
+    line-height: 1;
+    margin-top: 0px;
+    vertical-align: middle;
+}
+
+.bgWhite {
+    background-color: #feffff;
+    color: #52438f;
+}
+
+.bgPurple {
+    background-color: #52438f;
+    color: #feffff;
+}
+
+svg {
+    fill:#52438f;
+    vertical-align: sub;
+}
+
+svg:hover {
+    fill: #7582bc;
+}
+
+a {
+    
+}
+
+h2 {
+    background-color: #7582bc;
+    color: #feffff;
+    font-size: 26px;
+    margin-top: 50px;
+    display: block;
+    width: fit-content;
+    padding: 10px;
+}
+
+.buttons {
+    font-size: 50px;
+    display: block;
+    width: fit-content;
+    background-color: #feffff;
+    padding: 10px;
+}
+
+ul {
+    margin-left: 30px;
+    width: fit-content;
+}
+
+li {
+    list-style: square;
+    padding: 8px;
+    font-size: 20px;
 }
