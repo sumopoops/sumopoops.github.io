@@ -5,11 +5,6 @@ YELLOW          #ffff33
 WHITE           #feffff
 */
 
-@font-face {
-    font-family: Iosevka;
-    src: url("fonts/iosevka-aile-medium.woff2");
-}
-
 body {
     font-family: Iosevka, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #FFFF33;
